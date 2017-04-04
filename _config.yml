@@ -1,22 +1,22 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Sagar Nilesh Shah
+bio: Android + Full-stack | Tech | Sports | EDM | Diving | Travel | Food
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Android + Full-stack | Tech | Sports | EDM | Diving | Travel | Food
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
-picture: assets/images/profile.jpg
+external-image: true
+picture: https://www.gravatar.com/avatar/5eaaaf730e7e95bc90a0b7b8433f44b3?s=300
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: sagarnileshshah.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -31,39 +31,26 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: https://www.facebook.com/sagar.shah.182/
+twitter: https://twitter.com/sgzsh269/
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: https://www.linkedin.com/in/sgzsh269/
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: https://github.com/sgzsh269/
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+medium: https://medium.com/@shah.sagar.nilesh/
 # vimeo: myvimeo
-email: myemail@gmail.com
+# email: myemail@gmail.com
 
-authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -75,26 +62,26 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
+# about: true
+# blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+# read-time: true
 
 # do you want to show the "tags" inside the posts?
-show-tags: true
+# show-tags: true
 
 # related posts inside a post?
-related: true
+# related: true
 
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+# show-author: false
 
 # do you want some animations?
 animation: true
@@ -102,7 +89,6 @@ animation: true
 gems:
   - jekyll-seo-tag
   - jekyll-gist
-  - jekyll-feed
 
 jekyll-mentions:
     base_url: https://github.com
