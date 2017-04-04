@@ -1,9 +1,9 @@
 # main text of home
 name: Sagar Nilesh Shah
-bio: Android + Full-stack | Tech | Sports | EDM | Diving | Travel | Food
+bio: &desc Android + Full-stack, Tech, Sports, EDM, Diving, Travel, Food
 
 # twitter summary info
-description: Android + Full-stack | Tech | Sports | EDM | Diving | Travel | Food
+description: *desc
 
 # if it's an external image, update below for true
 # better with square images
